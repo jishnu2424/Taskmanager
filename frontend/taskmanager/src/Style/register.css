@@ -1,0 +1,113 @@
+.regform {
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    display: grid;
+    gap: 15px; /* Adds space between elements */
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.reginput {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.rl1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.regbtn {
+    width: 100%;
+    height: 3rem;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.regbtn:hover {
+    color: white;
+    background-color: rgb(10, 106, 240);
+    border-color: white;
+}
+
+.rlh1 {
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .rlh1 {
+        font-size: 1.5rem;
+    }
+
+    .regform {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .regform {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .rlh1 {
+        font-size: 1.25rem;
+    }
+
+    .reginput, .regbtn {
+        height: 2.25rem;
+    }
+
+    .rl1 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .regform {
+        padding: 10px;
+    }
+
+    .rlh1 {
+        font-size: 1.125rem;
+    }
+
+    .reginput, .regbtn {
+        height: 2rem;
+    }
+
+    .rl1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .rlh1 {
+        font-size: 1rem;
+    }
+
+    .reginput, .regbtn {
+        height: 1.75rem;
+    }
+
+    .rl1 {
+        font-size: 0.875rem;
+    }
+}

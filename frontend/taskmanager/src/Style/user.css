@@ -1,0 +1,102 @@
+.user-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .home-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .user-name,
+  .user-email,
+  .user-number {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .task-container {
+    margin-top: 20px;
+  }
+  
+  .task-row {
+    justify-content: center;
+  }
+  
+  .task-col {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-link {
+    text-decoration: none;
+  }
+  
+  .task-card {
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+  }
+  
+  .task-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .task-image {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .task-card-body {
+    padding: 15px;
+  }
+  
+  .task-title {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .task-content {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .add-task-link {
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .add-task-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-task-button:hover {
+    background-color: darkblue;
+  }
+  
+  .error-alert {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .loading,
+  .no-user,
+  .no-tasks {
+    font-size: 18px;
+    color: #777;
+    margin: 20px 0;
+  }
+  
